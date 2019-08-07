@@ -3,12 +3,18 @@ import test from '../components/test.vue';
 import cat from '../components/cat.vue';
 import TextInput from '../components/input.vue'
 import swiper3d from '../components/swiper3d.vue'
+import chrome from '../components/chrome.vue'
 
 //使用组件
-storiesOf('swiper',module).add('ImagesWall',()=>({
-  components:{swiper3d},
-  template:`<swiper3d />`
-}))
+storiesOf('swiper',module)
+  .add('ImagesWall',()=>({
+    components:{swiper3d},
+    template:`<swiper3d />`
+  }))
+  .add('chrome',()=>({
+    components:{chrome},
+    template:`<chrome/>`
+  }))
 
 storiesOf('test', module)
   .add('test', () => ({
