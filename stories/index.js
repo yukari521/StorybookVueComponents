@@ -4,8 +4,15 @@ import cat from '../components/cat.vue';
 import TextInput from '../components/input.vue'
 import swiper3d from '../components/swiper3d.vue'
 import chrome from '../components/chrome.vue'
+import zdog from '../components/zdog.vue'
 
 //使用组件
+storiesOf('zdog',module)
+  .add('zdog',()=>({
+    components:{zdog},
+    template:`<zdog/>`
+  }))
+
 storiesOf('swiper',module)
   .add('ImagesWall',()=>({
     components:{swiper3d},
