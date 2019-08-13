@@ -5,8 +5,22 @@ import TextInput from '../components/input.vue'
 import swiper3d from '../components/swiper3d.vue'
 import chrome from '../components/chrome.vue'
 import zdog from '../components/zdog.vue'
+import lineChart from '../components/echarts/lineChart.vue'
+import loading from '../components/loading/loading.vue'
 
 //使用组件
+storiesOf('charts',module)
+  .add('lineChart',()=>({
+    components:{lineChart},
+    template:`<lineChart/>`
+  }))
+
+storiesOf('loading',module)
+  .add('loading',()=>({
+    components:{loading},
+    template:`<loading :show="true" spinner="other" text="loading"/>`
+  }))
+
 storiesOf('zdog',module)
   .add('zdog',()=>({
     components:{zdog},
