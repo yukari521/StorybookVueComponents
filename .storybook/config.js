@@ -1,6 +1,7 @@
 import { configure } from '@storybook/vue';
 import Vue from 'vue';
-import '../assets/main.css';
+import '../assets/style/main.css';
+import '../assets/style/iconfont.css';
 
 //引入组件
 import ElementUI from 'element-ui'
