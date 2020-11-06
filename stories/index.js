@@ -1,7 +1,7 @@
 /*
  * @Author: yifan
  * @Date: 2019-08-07 09:36:45
- * @LastEditTime: 2020-11-03 16:13:54
+ * @LastEditTime: 2020-11-05 16:32:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \StorybookVueComponents\stories\index.js
@@ -18,6 +18,7 @@ import loading from '../components/loading/loading.vue'
 import Search from '../components/search/search.vue'
 import Tabbar from '../components/tabbar/index.vue'
 import CircleButton from '../components/buttons/circleButton.vue'
+import CrimsonCrescentLoading from '../components/crimsonCrescentLoading.vue'
 
 
 //使用组件
@@ -34,7 +35,12 @@ storiesOf('loading', module)
     components: {
       loading
     },
-    template: `<loading :show="true" spinner="other" text="loading"/>`
+    template: `<loading spinner="other" text="loading"/>`
+  })).add('crimson-crescent-loading',()=>({
+    components:{
+      CrimsonCrescentLoading
+    },
+    template:`<CrimsonCrescentLoading/>`
   }))
 
 storiesOf('zdog', module)

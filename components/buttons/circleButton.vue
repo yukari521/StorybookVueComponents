@@ -1,10 +1,10 @@
 <!--
  * @Author: your name
  * @Date: 2020-11-03 15:32:05
- * @LastEditTime: 2020-11-03 16:55:55
+ * @LastEditTime: 2020-11-04 10:41:15
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \IvanProject\StorybookVueComponents\components\buttons\circleButton.vue
+ * @FilePath: \StorybookVueComponents\components\buttons\circleButton.vue
 -->
 <template>
   <div class="circle-button" @touchstart.prevent="onTouchstart" @touchend.prevent="onTouchend">

@@ -30,7 +30,10 @@
 <script>
 export default {
   props: {
-    show: Boolean,
+    show: {
+      type:Boolean|String,
+      default:true
+    },
     text: {
       type: String,
       default: '加载中',

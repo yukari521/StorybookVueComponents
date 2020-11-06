@@ -19,8 +19,7 @@ export default {
     },
     mounted(){
         this.$nextTick(function(){
-            let search = this.$refs.search
-            
+            let search = this.$refs.search           
         })
     },
     methods:{
