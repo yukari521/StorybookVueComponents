@@ -21,7 +21,7 @@
   "dependencies": {
     "@antv/data-set": "^0.10.2",
     "@antv/g2": "^3.5.8-beta.1",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.11.1",
     "vue": "^2.6.10",
     "zdog": "^1.1.0"
